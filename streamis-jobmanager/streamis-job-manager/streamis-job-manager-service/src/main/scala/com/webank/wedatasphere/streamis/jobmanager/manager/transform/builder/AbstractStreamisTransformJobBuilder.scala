@@ -69,7 +69,7 @@ abstract class AbstractStreamisTransformJobBuilder extends StreamisTransformJobB
 
 abstract class AbstractDefaultStreamisTransformJobBuilder extends AbstractStreamisTransformJobBuilder{
 
-  private val flinkVersion = CommonVars("wds.streamis.flink.submit.version", "1.12.2").getValue
+  private val flinkVersion = CommonVars("wds.streamis.flink.submit.version", "1.16.2").getValue
 
   protected def getRunType(transformJob: StreamisTransformJob): RunType
 

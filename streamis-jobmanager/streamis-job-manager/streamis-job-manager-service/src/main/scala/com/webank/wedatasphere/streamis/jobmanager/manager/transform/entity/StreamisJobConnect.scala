@@ -11,7 +11,7 @@ trait StreamisJobConnect {
   def getRunType: RunType
 
   /**
-   * like: 1.12.2
+   * like: 1.16.2
    *
    * @return
    */

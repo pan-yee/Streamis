@@ -16,7 +16,7 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <!-- The flink version dependent-->
-        <flink.version>1.12.2</flink.version>
+        <flink.version>1.16.2</flink.version>
         <log4j.version>2.17.1</log4j.version>
         <slf4j.version>1.7.15</slf4j.version>
     </properties>
@@ -35,7 +35,7 @@
         </dependency>
         <dependency>
             <groupId>org.apache.flink</groupId>
-            <artifactId>flink-yarn_2.11</artifactId>
+            <artifactId>flink-yarn</artifactId>
             <version>${flink.version}</version>
             <scope>provided</scope>
         </dependency>
